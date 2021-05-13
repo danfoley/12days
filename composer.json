@@ -1,0 +1,19 @@
+{
+    "name": "dfoley/12days",
+    "description": "12 days of christmas",
+    "require": {
+        "symfony/console": "^5.2",
+        "php": "^7.4"
+    },
+    "authors": [
+        {
+            "name": "Dan Foley",
+            "email": "Dan.Foley@realpage.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "TwelveDays\\": "src"
+        }
+    }
+}
